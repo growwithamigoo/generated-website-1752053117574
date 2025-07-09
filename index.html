@@ -1,120 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Solutions - Contact Us</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modern React website with Tailwind CSS">
+  <title>React Tailwind Website</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="#" class="logo">Business<span>Solutions</span></a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#" class="active">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <section class="contact-section">
-            <div class="container">
-                <div class="contact-info">
-                    <h1>Get in Touch</h1>
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>123 Business Street, Suite 456<br>New York, NY 10001</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <p>+1 (555) 123-4567</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>contact@businesssolutions.com</p>
-                    </div>
-                    <div class="map-container">
-                        <div id="map"></div>
-                    </div>
-                </div>
-
-                <form id="contactForm" class="contact-form">
-                    <div class="form-group">
-                        <label for="name">Full Name <span>*</span></label>
-                        <input type="text" id="name" name="name" required>
-                        <div class="error-message"></div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Email Address <span>*</span></label>
-                        <input type="email" id="email" name="email" required>
-                        <div class="error-message"></div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="inquiry">Inquiry Type <span>*</span></label>
-                        <select id="inquiry" name="inquiry" required>
-                            <option value="">Select an option</option>
-                            <option value="general">General Inquiry</option>
-                            <option value="support">Technical Support</option>
-                            <option value="sales">Sales Question</option>
-                            <option value="partnership">Partnership Opportunity</option>
-                        </select>
-                        <div class="error-message"></div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">Message <span>*</span></label>
-                        <textarea id="message" name="message" rows="6" required></textarea>
-                        <div class="error-message"></div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="file">Attach File (Optional)</label>
-                        <input type="file" id="file" name="file" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg">
-                    </div>
-
-                    <div class="form-group checkbox-group">
-                        <input type="checkbox" id="subscribe" name="subscribe">
-                        <label for="subscribe">Subscribe to our newsletter</label>
-                    </div>
-
-                    <button type="submit" class="btn">Send Message</button>
-                    <div id="formStatus"></div>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Business Solutions. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+  <div id="root"></div>
 </body>
 </html>
